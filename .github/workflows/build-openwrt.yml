@@ -9,7 +9,8 @@
 name: 编译红米AC2100 OpenWrt固件
 
 on:
-  repository_dispatch:
+  # repository_dispatch:
+  workflow_dispatch:
   release:
     types: published
   push:
